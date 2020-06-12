@@ -1,6 +1,6 @@
 package Main;
 import java.util.Scanner;
-import Calculation.*;
+import DVDSaleCalculate;
 /**
  * Write a description of class MyApp here.
  *
