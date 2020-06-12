@@ -18,20 +18,20 @@ public class DVDSaleCalculate
     boolean Date = true;
     int age = 0;
     int charge = 5000;
-    
+
     public int DVDSaleCalculate(boolean Date, int age){
         if (Date == true){
-             charge = charge / 2;
+            charge = charge / 2;
         }
         else{
             if(age < 19){
                 charge = charge / 10 * 9;
             }
             else if(age > 64){
-               charge = charge / 5 * 4;
+                charge = charge / 5 * 4;
             }
             else{
-               charge = charge;
+                charge = charge;
             }
         }
         return charge;
