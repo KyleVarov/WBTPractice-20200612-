@@ -1,6 +1,6 @@
 package Main;
-
-
+import java.util.Scanner;
+import Calculation.*;
 /**
  * Write a description of class MyApp here.
  *
@@ -10,6 +10,9 @@ package Main;
 public class MyApp
 {
     public static void main(String[] args){
-        
+        Scanner scan = new Scanner(System.in);
+        int age = scan.nextInt();
+        boolean oldMovie = scan.nextBoolean();
+        int price = DVDSaleCalculate(oldMovie,age);
     }
 }
