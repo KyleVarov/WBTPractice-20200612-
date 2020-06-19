@@ -7,7 +7,7 @@ package Calculation;
  */
 public class DVDSaleCalculate
 {
-    /**
+    /**  
      * @param
      * Date = 구작(대여시작일로부터 6개월이상 경과된 작품) 인지 아닌지 판단한 값
      * (True = 구작일 경우 / False = 구작이 아닐경우)
